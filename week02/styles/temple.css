@@ -1,70 +1,84 @@
-/* Page background */
+/* White page background */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e6e6e6;
-    color: #333;
-}
-
-/* Header bar */
-header {
-    background-color: #1e3a5f;
-    color: white;
+    background-color: #ffffff;
+    color: #222;
     text-align: center;
-    padding: 15px;
-    font-size: 1.1rem;
-    font-weight: bold;
+    /* Centers header/footer boxes */
 }
 
-/* Card container */
+/* Header: black box only as wide as text */
+header {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Main card container (scaled to 50%) */
 main {
     max-width: 500px;
-    background-color: white;
-    margin: 30px auto;
-    padding: 20px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    margin: 20px auto;
+    padding: 0 15px;
+
+    transform: scale(0.5);
+    transform-origin: top center;
 }
 
 /* Title */
 h1 {
-    text-align: center;
-    color: #1e3a5f;
-    margin-top: 0;
+    color: #000;
+    margin-bottom: 15px;
 }
 
-/* Image */
+/* Temple image with stronger left/right shadow */
 picture img {
     width: 100%;
+    display: block;
+    margin: 0 auto 20px auto;
+
+    box-shadow:
+        15px 0 25px rgba(0, 0, 0, 0.35),
+        -15px 0 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Grey content boxes */
+section {
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin: 0 0 5px 0;
+    /* minimal gap under each grey box */
     border-radius: 4px;
-    margin: 15px 0;
+    text-align: left;
 }
 
 /* Section headings */
 h2 {
-    color: #1e3a5f;
-    margin-bottom: 5px;
+    margin-top: 0;
+    color: #000;
 }
 
-/* Paragraph spacing */
-p {
-    line-height: 1.5;
+/* Links */
+a {
+    color: #0055aa;
+    text-decoration: none;
 }
 
-/* List styling */
-ul {
-    padding-left: 20px;
-    margin-top: 5px;
+a:hover {
+    text-decoration: underline;
 }
 
-li {
-    margin-bottom: 6px;
-}
-
-/* Footer */
+/* Footer: black box only as wide as text, pulled up close */
 footer {
-    text-align: center;
-    padding: 15px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 14px;
+    margin-top: 0;
+    /* sits right under the last grey box */
     font-size: 0.9rem;
-    color: #555;
 }
