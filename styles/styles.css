@@ -1,10 +1,36 @@
-/* Limit the width of the main content */
+/* NAV */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
+/* MAIN */
 main {
     max-width: 840px;
     margin: 0 auto;
 }
 
-/* Style the aside section */
+/* H1 */
+h1 {
+    color: #003366;
+}
+
+/* MAIN IMAGE */
+main img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;
+    padding: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ASIDE */
 aside {
     width: 300px;
     margin: 2rem auto;
@@ -14,26 +40,17 @@ aside {
     color: #333;
 }
 
-/* Ensure aside images keep their aspect ratio */
 aside img {
     width: 200px;
     height: auto;
 }
 
-/* Override general img styling for the profile image */
-main img {
-    width: 150px;
-    height: auto;
-    border-radius: 6px;
-    /* optional, looks nice */
-}
-
-/* Remove padding from all paragraphs */
+/* PARAGRAPHS */
 p {
     padding: 0;
 }
 
-/* Footer styling */
+/* FOOTER */
 footer {
     margin-top: 2rem;
     border-top: 2px solid #ccc;
