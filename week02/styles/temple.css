@@ -1,73 +1,70 @@
-/* Reset some default spacing */
+/* Page background */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #e6e6e6;
     color: #333;
 }
 
-/* Header styling */
+/* Header bar */
 header {
-    background-color: #003366;
+    background-color: #1e3a5f;
     color: white;
-    padding: 1em;
     text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
-/* Main content layout */
+/* Card container */
 main {
-    max-width: 600px;
-    margin: 2em auto;
-    padding: 1em;
+    max-width: 500px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
 }
 
-/* Temple image */
-picture img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1em;
-}
-
-/* Headings */
+/* Title */
 h1 {
     text-align: center;
-    color: #003366;
-    margin-bottom: 1em;
+    color: #1e3a5f;
+    margin-top: 0;
 }
 
+/* Image */
+picture img {
+    width: 100%;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+/* Section headings */
 h2 {
-    color: #005580;
-    margin-top: 1.5em;
+    color: #1e3a5f;
+    margin-bottom: 5px;
 }
 
-/* Links */
-a {
-    color: #0077cc;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+/* Paragraph spacing */
+p {
+    line-height: 1.5;
 }
 
 /* List styling */
 ul {
-    padding-left: 1.2em;
+    padding-left: 20px;
+    margin-top: 5px;
 }
 
 li {
-    margin-bottom: 0.5em;
+    margin-bottom: 6px;
 }
 
-/* Footer styling */
+/* Footer */
 footer {
     text-align: center;
-    padding: 1em;
-    background-color: #eee;
-    font-size: 0.9em;
-    color: #666;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #555;
 }
