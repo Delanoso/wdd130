@@ -8,24 +8,24 @@ body {
     /* Centers header/footer boxes */
 }
 
-/* Header: black box only as wide as text */
+/* Header: lighter and thinner */
 header {
     display: inline-block;
-    background-color: #000;
+    background-color: #333;
+    /* lighter than black */
     color: #fff;
-    padding: 8px 14px;
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 1rem;
+    padding: 1px 10px;
+    ;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 0.75rem;
 }
 
 /* Main card container (scaled to 50%) */
 main {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 0 15px;
-
-    transform: scale(0.5);
+    max-width: 250px;
+    margin: 0px auto;
+    padding: 0 15px transform: scale(0.5);
     transform-origin: top center;
 }
 
@@ -33,6 +33,7 @@ main {
 h1 {
     color: #000;
     margin-bottom: 15px;
+    font-size: 1.2rem;
 }
 
 /* Temple image with stronger left/right shadow */
@@ -48,12 +49,11 @@ picture img {
 
 /* Grey content boxes */
 section {
-    background-color: #f2f2f2;
+    background-color: #dbdddd;
     padding: 15px;
-    margin: 0 0 5px 0;
-    /* minimal gap under each grey box */
-    border-radius: 4px;
+    margin: 0 0 15px 0;
     text-align: left;
+    font-size: 0.7rem;
 }
 
 /* Section headings */
@@ -72,13 +72,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer: black box only as wide as text, pulled up close */
 footer {
     display: inline-block;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
-    padding: 8px 14px;
+    padding: 0px 80px;
     margin-top: 0;
-    /* sits right under the last grey box */
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
