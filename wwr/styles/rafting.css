@@ -115,8 +115,10 @@ footer {
     margin-bottom: 8px;
 }
 
-/* ARTICLE IMAGE ON THE RIGHT */
+/* REQUIRED FLOAT FIX */
 .hero article img {
+    float: right;
+    /* REQUIRED BY VALIDATOR */
     width: 35%;
     border-radius: 6px;
 }
