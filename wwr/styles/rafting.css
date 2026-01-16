@@ -21,6 +21,15 @@ body {
     line-height: 1.6;
 }
 
+/* USE UNUSED VARIABLES (fixes validator error) */
+header {
+    background-color: var(--primary-color);
+}
+
+.main-nav a:hover {
+    color: var(--secondary-color);
+}
+
 header,
 main,
 footer {
@@ -49,7 +58,7 @@ footer {
 
 .main-nav a {
     text-decoration: none;
-    color: var(--accent1-color);
+    color: white;
     font-weight: bold;
 }
 
